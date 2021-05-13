@@ -77,15 +77,6 @@ function sortByParam(passportList, paramName){
 sortByParam(passport, "name"); 
 
 
-/* passport.sort(function(a, b){
-    if (a.name > b.name) {return 1;}
-    if (a.name < b.name) {return -1;}
-    return 0;
-})
-console.log(passport); */
-
-
-
 
 function displayPassport(arr, i){
         let out_arr = document.getElementById('out_arr');
